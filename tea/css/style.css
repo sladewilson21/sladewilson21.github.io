@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+section {
+  width: 100%;
+  height: 100vh;
+}
+/* первая секция - шапка */
+.main {
+  width: 100%;
+  height: 100vh;
+  /* видео фон */
+}
+.main .header {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  background-color: #4b96a1;
+  color: white;
+  /* навигация */
+}
+.main .header .logo {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 3rem;
+}
+.main .header .menu {
+  font-family: 'Ronaldo', sans-serif;
+  font-weight: 400;
+  padding-top: 2rem;
+  list-style-type: none;
+}
+.main .header .menu .link::after {
+  content: '   /';
+}
+.main .header .menu a {
+  color: white;
+  text-decoration: none;
+}
+.main .header .menu li {
+  display: inline;
+}
+.main .header .menu li :hover {
+  color: #e6e6e6;
+  cursor: pointer;
+}
+.main .header .row {
+  text-align: center;
+}
+.main .video {
+  margin-top: -2rem;
+  min-height: 100vh;
+  min-width: 100%;
+  text-align: center;
+  display: table;
+  background-size: cover;
+}
+.main .wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-family: 'Ronaldo', sans-serif;
+}
+.main .wrap-block h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.main .wrap-block-btn {
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 20rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+.main .wrap-block-btn:hover {
+  width: 20.2rem;
+  height: 5.2rem;
+  font-size: 2.05rem;
+}
+.main .wrap-block-btn a {
+  color: white;
+  text-decoration: none;
+}
+/* вторая секция */
+.two {
+  padding-top: 6rem;
+  text-align: center;
+  background-color: white;
+}
+.two h2 {
+  font-size: 3rem;
+  font-family: 'Ronaldo', sans-serif;
+}
+.two p {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+.two .pictures {
+  margin-top: 5rem;
+}
+.two .pictures .pictures-block {
+  display: inline;
+  margin: 0 3rem;
+}
+/* третья секция - цитаты */
+.quotes {
+  background-color: #00d089;
+}
+.quotes .section-header {
+  text-align: center;
+  padding-top: 5rem;
+}
+.quotes .section-header .quote .avatar {
+  padding: 0 2rem;
+  display: inline-block;
+}
+.quotes .section-header .quote .avatar h3 {
+  font-size: 2rem;
+  font-family: 'Ronaldo', sans-serif;
+  letter-spacing: 0.5rem;
+}
+.quotes .section-header .quote .avatar .ava-name {
+  width: 180px;
+  height: 180px;
+}
+.quotes .section-header .quote .avatar .ava {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.quotes .section-header p {
+  margin-top: 4rem;
+  font-size: 1.3rem;
+}
+/* footer */
+.footer {
+  background-color: #00d089;
+}
+.footer .text {
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Ronaldo', sans-serif;
+  font-weight: normal;
+  padding-top: 1rem;
+}
+/* четвертая секция - карта */
+.map {
+  position: relative;
+  /* форма */
+}
+.map .main-form {
+  bottom: 25%;
+  left: 40%;
+  position: absolute;
+  padding: 1rem 2rem;
+  display: table;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 99;
+  /* Подписи к полям */
+}
+.map .main-form-input {
+  display: table;
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  height: 2rem;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+.map .main-form label {
+  position: absolute;
+  -webkit-transform: translateX(-50%) translateY(-100%);
+          transform: translateX(-50%) translateY(-100%);
+  font-size: 1rem;
+  background-color: transparent;
+  font-weight: 400;
+}
+.map .main-form textarea {
+  height: 4rem;
+}
+.map .main-form-btn {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  margin-top: -1rem;
+}
+.map .white {
+  background-color: white;
+}
+.map .sphere {
+  position: relative;
+  left: 36.5%;
+  bottom: 78.5%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  opacity: 0.9;
+  z-index: 1;
+}
